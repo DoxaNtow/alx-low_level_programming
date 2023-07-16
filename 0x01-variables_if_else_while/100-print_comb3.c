@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-/** main - a program to print possile combinations of two digits
+/**
+* main - a program to print possile combinations of two digits
 *
 * Return: 0 (success)
 */
-
- int main(void)
+int main(void)
 {
 	int i = '0';
 	int j = '0';
