@@ -7,7 +7,7 @@
  * Return: pointer to the first node in the new list
  */
 listint_t *reverse_listint(listint_t **head)
-{	
+{
 	listint_t *prevNode = NULL;
 	listint_t *currentNode = *head;
 	listint_t *nextNode = NULL;
@@ -22,6 +22,6 @@ listint_t *reverse_listint(listint_t **head)
 
 	*head = prevNode;
 
-	return *head;
+	return (*head);
 }
 
